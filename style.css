@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap) format("Open-Sans");
+}
+body{
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background: -webkit-linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+  background: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+  background-image: url(http://down.699pic.com/element/40023/3783.png?_upt=b9f9259c1589534339&_upd=Lovepik_com-400233783-a-farmer.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: cover;
+  font-family: OpenSans;
+}
+.citations{
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 160%;
+  border-left: 3px;
+  border-left-style: solid;
+  border-color: #842e1b;
+  padding-left: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-style: italic;
+
+}
+.citations span{
+  background-color: #BFC4C9;
+
+
+}
+.auteur{
+  background-color: yellow;
+}
+.mal{
+  color: red;
+  text-transform: uppercase;
+}
+.bien{
+  color: green;
+  text-transform: uppercase;
+}
+
+.pair{
+  background-color: gray;
+}
+.impair{
+  background-color: white;
+}
+
+.first span{
+  background-image: url(bien.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  padding-right: 30px;
+
+
+}
+.second span{
+  background-image: url(mal.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  padding-right: 30px;
+
+
+}
+.third span{
+  background-image: url(chat.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  padding-right: 30px;
+
+
+}
+.paragraph1{
+  font-weight: bold;
+}
+
+.image1{
+  float: right;
+  width: 500px;
+  height: 370px;
+}
+.image2{
+  float: left;
+  width: 500px;
+  height: 370px;
+}
