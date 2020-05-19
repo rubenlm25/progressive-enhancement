@@ -1,23 +1,17 @@
-@font-face {
-  font-family: "OpenSans";
-  src: url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap) format("Open-Sans");
-}
+@import ('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,800&display=swap');
 body{
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  background: -webkit-linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
-  background: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
-  background-image: url(http://down.699pic.com/element/40023/3783.png?_upt=b9f9259c1589534339&_upd=Lovepik_com-400233783-a-farmer.png);
+  width: 90%;
+  margin: auto;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
   background-repeat: no-repeat;
-  position: absolute;
+  background-position: bottom right;
   background-size: cover;
-  font-family: OpenSans;
 }
 .citations{
   max-width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   font-size: 160%;
   border-left: 3px;
   border-left-style: solid;
@@ -82,14 +76,24 @@ body{
 .paragraph1{
   font-weight: bold;
 }
+.img1{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.img2{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 
-.image1{
-  float: right;
-  width: 500px;
-  height: 370px;
 }
-.image2{
-  float: left;
-  width: 500px;
-  height: 370px;
+.img3{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
 }
+
+
+
+
