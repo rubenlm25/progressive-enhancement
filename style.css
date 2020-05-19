@@ -1,4 +1,12 @@
-@import ('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,800&display=swap');
+/*@import ('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,800&display=swap');*/
+@font-face{
+  font-family: dmmono;
+  src: url(DMMono-Regular.ttf);
+}
+@font-face{
+  font-family: balsamiq;
+  src: url(BalsamiqSans-Regular.ttf);
+}
 body{
   width: 90%;
   margin: auto;
@@ -8,6 +16,7 @@ body{
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: cover;
+  font-family: dmmono;
 }
 .citations{
   max-width: 50%;
@@ -92,6 +101,9 @@ body{
   margin-right: auto;
   width: 50%;
 
+}
+h1{
+  font-family: Balsamiq;
 }
 
 
